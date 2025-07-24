@@ -1,0 +1,14 @@
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\bin\Debug\net8.0\CalcProject.exe
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\bin\Debug\net8.0\CalcProject.deps.json
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\bin\Debug\net8.0\CalcProject.runtimeconfig.json
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\bin\Debug\net8.0\CalcProject.dll
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\bin\Debug\net8.0\CalcProject.pdb
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\CalcProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\CalcProject.AssemblyInfoInputs.cache
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\CalcProject.AssemblyInfo.cs
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\CalcProject.csproj.CoreCompileInputs.cache
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\CalcProject.dll
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\refint\CalcProject.dll
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\CalcProject.pdb
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\CalcProject.genruntimeconfig.cache
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\ref\CalcProject.dll
