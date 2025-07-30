@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 public class MainForm : Form
@@ -17,6 +18,7 @@ public class MainForm : Form
    private double secondNumber;
    private string operation;
    private bool isSecondNumber;
+   private Dictionary<string, IOperation> operations;
 
    public MainForm()
    {
@@ -70,6 +72,16 @@ public class MainForm : Form
       Controls.Add(squareButton);
       Controls.Add(resultLabel);
       Controls.Add(operationResultLabel);
+
+      // Initialize operations dictionary
+      operations = new Dictionary<string, IOperation>
+      {
+         { "Add", new Addition() },
+         { "Subtract", new Subtraction() },
+         { "Multiply", new Multiplication() },
+         { "Divide", new Division() },
+         { "Square", new SquareOperation() }
+      };
    }
 
    private void NumberButton_Click(object sender, EventArgs e)
@@ -120,37 +132,27 @@ public class MainForm : Form
 
    private void PerformOperation()
    {
-      switch (operation)
+      if (operations.TryGetValue(operation, out IOperation op))
       {
-         case "Subtract":
-            Subtraction subtraction = new Subtraction();
-            resultLabel.Text = "Result: " + subtraction.Subtract(firstNumber, secondNumber);
-            break;
-         case "Square":
-            SquareOperation square = new SquareOperation();
-            resultLabel.Text = "Result: " + square.Square(firstNumber);
-            break;
-         case "Multiply":
-            Multiplication multiplication = new Multiplication();
-            resultLabel.Text = "Result: " + multiplication.Multiply(firstNumber, secondNumber);
-            break;
-         case "Divide":
-            Division division = new Division();
-            try
-            {
-               resultLabel.Text = "Result: " + division.Divide(firstNumber, secondNumber);
-            }
-            catch (DivideByZeroException ex)
-            {
-               resultLabel.Text = "Error: " + ex.Message;
-            }
-            break;
-         case "Add":
-            Addition addition = new Addition();
-            resultLabel.Text = "Result: " + addition.Add(firstNumber, secondNumber);
-            break;
+         try
+         {
+            double result = op.Name == "Square"
+                ? op.Execute(firstNumber, 0)
+                : op.Execute(firstNumber, secondNumber);
+
+            resultLabel.Text = "Result: " + result;
+         }
+         catch (Exception ex)
+         {
+            resultLabel.Text = "Error: " + ex.Message;
+         }
       }
-      operationResultLabel.Text = "Operation: " + operation + " " + firstNumber + " and " + secondNumber;
+      else
+      {
+         resultLabel.Text = "Unknown operation.";
+      }
+
+      operationResultLabel.Text = $"Operation: {operation} {firstNumber} and {secondNumber}";
       display.Clear();
    }
 

@@ -1,7 +1,5 @@
-public class Subtraction
+public class Subtraction : IOperation
 {
-    public double Subtract(double a, double b)
-    {
-        return a - b;
-    }
+    public string Name => "Subtract";
+    public double Execute(double a, double b) => a - b;
 }

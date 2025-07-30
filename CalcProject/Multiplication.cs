@@ -1,7 +1,5 @@
-public class Multiplication
+public class Multiplication : IOperation
 {
-    public double Multiply(double a, double b)
-    {
-        return a * b;
-    }
+    public string Name => "Multiply";
+    public double Execute(double a, double b) => a * b;
 }
