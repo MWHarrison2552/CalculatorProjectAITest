@@ -1,7 +1,5 @@
-public class Addition
+public class Addition : IOperation
 {
-    public double Add(double a, double b)
-    {
-        return a + b;
-    }
+    public string Name => "Add";
+    public double Execute(double a, double b) => a + b;
 }

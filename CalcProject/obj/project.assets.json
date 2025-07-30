@@ -8,34 +8,32 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\harrison\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\dlmhr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEVELOP\\ExtraProjects\\CalculatorProjectAITest\\CalcProject\\CalcProject.csproj",
+      "projectUniqueName": "C:\\Development\\VisualStudio\\CSharp\\CalculatorProjectAITest\\CalcProject\\CalcProject.csproj",
       "projectName": "CalcProject",
-      "projectPath": "C:\\DEVELOP\\ExtraProjects\\CalculatorProjectAITest\\CalcProject\\CalcProject.csproj",
-      "packagesPath": "C:\\Users\\harrison\\.nuget\\packages\\",
-      "outputPath": "C:\\DEVELOP\\ExtraProjects\\CalculatorProjectAITest\\CalcProject\\obj\\",
+      "projectPath": "C:\\Development\\VisualStudio\\CSharp\\CalculatorProjectAITest\\CalcProject\\CalcProject.csproj",
+      "packagesPath": "C:\\Users\\dlmhr\\.nuget\\packages\\",
+      "outputPath": "C:\\Development\\VisualStudio\\CSharp\\CalculatorProjectAITest\\CalcProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\harrison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dlmhr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
