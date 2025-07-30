@@ -12,3 +12,5 @@ C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\re
 C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\CalcProject.pdb
 C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\CalcProject.genruntimeconfig.cache
 C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\ref\CalcProject.dll
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\MainForm.resources
+C:\DEVELOP\ExtraProjects\CalculatorProjectAITest\CalcProject\obj\Debug\net8.0\CalcProject.csproj.GenerateResource.cache
